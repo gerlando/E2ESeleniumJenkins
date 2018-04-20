@@ -13,6 +13,6 @@ public class TC_001 {
 		driver.findElementById("username").sendKeys("gdimino");
 		driver.findElementById("password").sendKeys("Giant12345!");
 		driver.findElementById("code").sendKeys("tPYBm");
-		//driver.quit();
+		driver.quit();
 	}
 }
